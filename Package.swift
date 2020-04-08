@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.0
 
 /**
  *  ApplicationRouter
@@ -10,6 +10,9 @@ import PackageDescription
 
 let package = Package(
     name: "ApplicationRouter",
+    platforms: [
+        .iOS(.v9)
+    ],
     products: [
         .library(name: "ApplicationRouter",
                  targets: ["ApplicationRouter"]),
