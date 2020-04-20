@@ -21,9 +21,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "ApplicationRouter",
-                path: "Sources"),
-        .testTarget(name: "ApplicationRouterTests",
-                    dependencies: ["ApplicationRouter"],
-                    path: "Tests"),
+                path: "Sources")
     ]
 )
